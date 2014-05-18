@@ -1,0 +1,25 @@
+body {
+  padding: 20px;
+  width: 40%;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.demo-1 .count {
+  text-align: right;
+}
+
+.demo-1 strong.red {
+  color: red;
+}

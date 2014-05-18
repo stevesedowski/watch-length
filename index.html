@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="textApp">
+<head>
+<link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+  <meta charset="utf-8">
+  <title>Watch the Length</title>
+</head>
+<body>
+  <section class="demo-1" ng-controller="textCtrl">
+    <h2>Watch the Length</h2>
+    <p>This AngularJS example watches the length of the text and displays it in red if the length is over 140 characters.</p>
+    <textarea rows="5" class="form-control" ng-model="message"></textarea>
+    <div class="count"><strong ng-class="{red: setColor === 'red'}">{{ remaining }}</strong> characters remaining.</div>
+  </section>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
